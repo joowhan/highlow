@@ -48,8 +48,8 @@ hi.getState(detect)
 
 ```
 
-* **높임말을 반말로 변환**
-
+* **높임말을 반말로 변환** <br>
+반말로의 변환 과정은 고려해야 할 문법적 요소가 많으며 다소 복잡한 과정을 거칩니다. class를 호출해서, method를 호출해서 사용할 수 있습니다. 
 ```python
 from high2low import Changer_low as ch_low
 ch = ch_low()
@@ -59,8 +59,12 @@ output = ch.processText(txt)
 print("Converted Result:", output)
 ```
 
-* **반말을 높임말로 변환**
-
+* **반말을 높임말로 변환** <br>
+높임말로 변환은 khaiii 형태소 분석기가 사용되었으며, 간단하게 함수 호출로 변환이 가능합니다.
 ```python
-
+    output = util.tohigh(txt)
+    print("Converted Result:", output)
 ```
+
+## 3. Precautions
+형태소 기반으로 변환이 되기 때문에, 입력하는 문장이 문법적으로 정확하지 않으면 제대로 분석이 되지 않아 변환이 안됩니다. 문장이 문법적으로 맞더라도, 형태소 분석기 역시 완벽하지 못해, 종종 제대로 분석을 못하는 경우가 존재합니다. 이 경우 역시 제대로 변환이 안될 수 있습니다. 
