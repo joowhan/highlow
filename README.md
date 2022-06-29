@@ -74,5 +74,15 @@ print("Converted Result:", output)
     print("Converted Result:", output)
 ```
 
-## 3. Precautions
+## 3. Structure
+- src
+  - dictionary.py: 어체 변환시 필요한 종결어미, 형태소 등의 dictionary
+  - hagul.py
+  - high2low.py: 높임말을 반말로 변경하는 class
+  - is_horl.py: 높임말 반말 판단 class
+  - low2high.py: 반말을 높임말로 변환하는 class(not use this project)
+  - utils.py: 변환 시 필요한 method set
+  - test.py: 사용 예시
+
+## 4. Precautions
 형태소 기반으로 변환이 되기 때문에, 입력하는 문장이 문법적으로 정확하지 않으면 제대로 분석이 되지 않아 변환이 안됩니다. 문장이 문법적으로 맞더라도, 형태소 분석기 역시 완벽하지 못해, 종종 제대로 분석을 못하는 경우가 존재합니다. 이 경우 역시 제대로 변환이 안될 수 있습니다. 
