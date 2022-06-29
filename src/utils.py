@@ -15,13 +15,13 @@ import dictionary as dic
 import hangul
 from khaiii import KhaiiiApi
 
-############ For Window ############ 
+############ For eunjeon Mecab ############ 
 #from eunjeon import Mecab
-############ For Window ############ 
+############ For eunjeon Mecab ############ 
 
-############ For Mac ############ 
+############ For konlpy Mecab ############ 
 from konlpy.tag import Mecab
-############ For Mac ############ 
+############ For konlpy Mecab ############ 
 
 
 mec = Mecab()
