@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# © 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+# Made by MILab in Handong Global University
 
 from high2low import Changer_low as ch_low
 import utils as util

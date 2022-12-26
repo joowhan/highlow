@@ -1,3 +1,5 @@
+# © 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+# Made by MILab in Handong Global University
 
 #Korean vowel combination
 con_dict = [

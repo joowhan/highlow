@@ -1,9 +1,5 @@
-"""
-높임말 반말 변환 모듈 - utils
-__author__ = 'Joowhan Kim (joowhan@handong.ac.kr)'
-__copyright__ = ''
-"""
-
+# © 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+# Made by MILab in Handong Global University
 import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm

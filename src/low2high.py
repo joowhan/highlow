@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# © 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+# Made by MILab in Handong Global University
 
 import hangul
 import utils as util

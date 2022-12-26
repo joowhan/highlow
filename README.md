@@ -1,5 +1,7 @@
 # **높임말 반말 변환 모듈**
-Joowhan edited this page on 29 Jun 2022
+Joowhan edited this page on 29 Jun 2022<br>
+© 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+
 
 ### **Made by HGU MILab 김주환, 김정희, 허재무**
 **************

@@ -1,3 +1,6 @@
+# © 2022 Joowhan Kim, Jaemu Heo, Jeonghui Kim <joy980721@gmail.com>
+# Made by MILab in Handong Global University
+
 import utils as util
 import dictionary as dic
 
