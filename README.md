@@ -1,5 +1,5 @@
 # **높임말 반말 변환 모듈**
-Joowhan edited this page on 29 Jun 2022<br>
+edited this page on 29 Jun 2022<br>
 © 2022 milab <joy980721@gmail.com>
 
 
